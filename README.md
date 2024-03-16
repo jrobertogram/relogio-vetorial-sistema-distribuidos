@@ -45,8 +45,32 @@
  
 ### Funcionamento
 
-- exemplo 1
-- exemplo 2
+1. **Executando o Código**:
+   - Abra um terminal ou prompt de comando na pasta onde salvou o arquivo Python.
+   - Execute o código Python digitando:
+     
+     ```
+     python nomedoarquivo.py
+     ```
+   - Isso iniciará o processo e exibirá o menu principal no terminal.
+   - Repita esse etapa até atingir o número desejado de processos.
+   - Ao iniciar o programa, o processo será registrado no arquivo `processos.json`.
+
+2. **Interagindo com o Menu Principal**:
+   - No menu principal, você terá as seguintes opções:
+     - **1. Criar evento**: Cria um evento e o adiciona à lista de eventos.
+     - **2. Ver eventos**: Exibe a lista de eventos previamente criados.
+     - **3. Ver vetor**: Exibe o vetor de relógio lógico atual.
+     - **4. Enviar mensagem**: Envia uma mensagem para um processo aleatório disponível.
+     - **0. Sair**: Finaliza o processo e fecha o programa.
+
+3. **Observações**:
+   - Certifique-se de permitir a execução do código em qualquer firewall ou software de segurança instalado, pois ele usa comunicação de rede.
+   - Os eventos criados serão exibidos na lista de eventos.
+   - O vetor de relógio lógico será atualizado conforme as interações do usuário.
+   - Ao sair do programa, o processo será removido do registro de processo do arquivo `processos.json`.
+   - É importante fechar o programa pelo menu na `opção - 0`, fechar o programa de outra forma vai quebrar o fluxo.
+   - É importante caso aconteça algum problema, que o arquivo `processos.json` tenha como texto um json vazio `{}`.
 
 #
  
