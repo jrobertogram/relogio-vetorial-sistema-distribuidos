@@ -36,6 +36,11 @@
 - [x] Navegação em menus dos recursos.
  #
 
+### Demonstração
+<h1 align="center">
+  <img alt="demonstração" src="relógios_vetorias.png" />
+</h1>
+
 ### Pré-requisitos
 
      pip install psutil
