@@ -34,6 +34,7 @@
 - [x] Criação de processo cliente/servidor em socket
 - [x] Utilização de threading para uso simultâneo de recursos.
 - [x] Navegação em menus dos recursos.
+- [ ] Envio de mensagens automáticas em intervalos de tempo.
  #
 
 ### Demonstração
