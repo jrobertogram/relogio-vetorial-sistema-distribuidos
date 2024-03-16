@@ -52,12 +52,13 @@
 ### Funcionamento
 
 1. **Executando o Código**:
-   - Abra um terminal ou prompt de comando na pasta onde salvou o arquivo Python.
+   - Abra um terminal na pasta onde salvou o arquivo Python.
    - Execute o código Python digitando:
      
      ```
-     python nomedoarquivo.py
+     python processos.py
      ```
+   - Ou execute o arquivo clicando no mesmo.
    - Isso iniciará o processo e exibirá o menu principal no terminal.
    - Repita esse etapa até atingir o número desejado de processos.
    - Ao iniciar o programa, o processo será registrado no arquivo `processos.json`.
