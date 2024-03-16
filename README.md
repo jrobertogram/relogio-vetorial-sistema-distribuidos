@@ -28,7 +28,7 @@
 - [x] Definir portas dinamicamente para cada processo.
 - [x] Registro dos processos e portas.
 - [x] Todos os processos conhecem uns aos outros e consequentemente suas portas.
-- [x] Relógios Vetoriais - Mattern,Figdge,1988
+- [x] Implementação do algoritmo de Relógios Vetoriais - Mattern,Figdge,1988
 - [x] Criar evento no processo.
 - [x] Ver lista de eventos do processo.
 - [x] Criação de processo cliente/servidor em socket
