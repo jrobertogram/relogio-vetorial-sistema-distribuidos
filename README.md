@@ -58,7 +58,7 @@
      ```
      python processos.py
      ```
-   - Ou execute o arquivo clicando no mesmo.
+   - Ou sisplemente execute o arquivo clicando nele.
    - Isso iniciará o processo e exibirá o menu principal no terminal.
    - Repita esse etapa até atingir o número desejado de processos.
    - Ao iniciar o programa, o processo será registrado no arquivo `processos.json`.
