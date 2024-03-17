@@ -1,0 +1,31 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="UTF-8">
+      <title>Gráficos da execução do sistema distribuído</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <h3 style="text-align: center; margin-bottom: 50px">Gráficos da execução do sistema distribuído</h3>
+      <div id="network" style="width: 99vw; height: 85vh"></div>
+
+
+      <script type="text/javascript">
+          const container = document.getElementById("network");
+          const data = #jsonString;
+
+          options = {
+            edges:{
+              color: { color: "#000000"},
+            },
+            nodes:{
+              color: "#363636",
+            }
+          }
+
+          const network = new vis.Network(container, data, options);
+      </script>
+  </body>
+  </html>
+
